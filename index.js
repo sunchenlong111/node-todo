@@ -29,8 +29,6 @@ function taskAsUnDone(list, num) {
   db.write(list)
 }
 
-
-
 function updateTitle(list, num) {
   inquirer.prompt({
     type: 'input',
