@@ -13,6 +13,8 @@ module.exports.add = async (title) => {
   await db.write(list)
 }
 
+// test
+
 module.exports.clear = async () => {
   await db.write([])
 }
